@@ -45,6 +45,8 @@ public class CadastroActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 boolean validacaoCampos = true;
+                boolean senhaValida = false;
+
                 ArrayList<String> camposVazios = new ArrayList<String>();
                 ArrayList<EditText> inserts = new ArrayList<EditText>();
                 ArrayList<TextView> campos = new ArrayList<TextView>();
@@ -60,11 +62,12 @@ public class CadastroActivity extends AppCompatActivity {
 
                 if (camposVazios.size() > 0) {
                     Toast.makeText(CadastroActivity.this, camposVazios.toString(), Toast.LENGTH_SHORT).show();
-                }else{
-
+                }else if (insertSenha.getText().toString().equals(insertConfirmacaoSenha.getText().toString())){
+                    senhaValida = true;
                 }
 
-                if (validacaoCampos == true){
+                if (validacaoCampos == true && senhaValida == true){
+                    Usuario user = new Usuario(insertEmail.getText().toString(), insertSenha.getText().toString());
                     finish();
                 }
 
