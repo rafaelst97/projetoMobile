@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity {
                 
             case R.id.item_perfil:
 
-                Toast.makeText(this, "Perfil", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(HomeActivity.this, PerfilActivity.class));
                 
                 break;
         }
