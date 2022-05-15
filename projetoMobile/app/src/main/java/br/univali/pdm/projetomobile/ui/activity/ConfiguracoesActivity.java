@@ -3,6 +3,8 @@ package br.univali.pdm.projetomobile.ui.activity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import br.univali.pdm.projetomobile.R;
 
@@ -12,5 +14,6 @@ public class ConfiguracoesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_configuracoes);
+
     }
 }

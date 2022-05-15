@@ -6,4 +6,118 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.ConfiguracoesActivity">
 
+    <Spinner
+        android:id="@+id/spinner_modo_escuro"
+        android:layout_width="237dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:entries="@array/modo_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elegantTextHeight="true"
+        android:text="Tema do aplicativo"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_modo_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <Button
+        android:id="@+id/configuracoes_notificacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Notificações"
+        android:gravity="left|center_vertical"
+        android:backgroundTint="@android:color/transparent"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_action_notificacoes"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_modo_escuro" />
+
+    <Button
+        android:id="@+id/configuracoes_seguranca"
+        android:drawableLeft="@drawable/ic_action_seguranca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Segurança"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/configuracoes_notificacoes" />
+
+    <Button
+        android:id="@+id/configuracoes_conta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conta"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_action_perfil"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/configuracoes_seguranca" />
+
+    <Button
+        android:id="@+id/configuracoes_privacidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacidade"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_action_privacidade"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/configuracoes_conta" />
+
+    <Button
+        android:id="@+id/configuracoes_sobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawableLeft="@drawable/ic_action_sobre"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/configuracoes_privacidade" />
+
+    <Button
+        android:id="@+id/configuracoes_encerrar_sessao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Encerrar Sessão"
+        android:backgroundTint="#C4C4C4"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/configuracoes_sobre" />
 </androidx.constraintlayout.widget.ConstraintLayout>

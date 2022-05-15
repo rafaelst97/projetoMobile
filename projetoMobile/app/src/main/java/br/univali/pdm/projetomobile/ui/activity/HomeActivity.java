@@ -3,6 +3,7 @@ package br.univali.pdm.projetomobile.ui.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.item_configuracoes:
 
-                Toast.makeText(this, "Configurações", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(HomeActivity.this, ConfiguracoesActivity.class));
                 
                 break;
                 
