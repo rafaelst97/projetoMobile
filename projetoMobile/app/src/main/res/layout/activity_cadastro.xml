@@ -28,7 +28,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_nome" />
 
     <TextView
         android:id="@+id/cadastro_email"
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_sobrenome" />
 
     <TextView
         android:id="@+id/cadastro_senha"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_matricula" />
 
     <TextView
         android:id="@+id/cadastro_matricula"
@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_cpf" />
 
     <TextView
         android:id="@+id/cadastro_cpf"
@@ -76,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_email" />
 
     <TextView
         android:id="@+id/cadastro_confirmacao_senha"
@@ -88,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_senha" />
 
     <Button
         android:id="@+id/cadastro_concluir"
@@ -101,10 +101,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/cadastro_insert_confirmacao_senha" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/cadastro_insert_nome"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
@@ -117,7 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro_nome" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/cadastro_insert_sobrenome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -131,7 +131,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro_sobrenome" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/cadastro_insert_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -145,7 +145,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro_email" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/cadastro_insert_cpf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -159,7 +159,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro_cpf" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/cadastro_insert_matricula"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -173,7 +173,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro_matricula" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/cadastro_insert_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -187,7 +187,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cadastro_senha" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/cadastro_insert_confirmacao_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
