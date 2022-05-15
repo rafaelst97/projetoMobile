@@ -67,7 +67,7 @@ public class CadastroActivity extends AppCompatActivity {
                 }
 
                 if (validacaoCampos == true && senhaValida == true){
-                    Usuario user = new Usuario(insertEmail.getText().toString(), insertSenha.getText().toString());
+                    Usuario user = new Usuario(insertEmail.getText().toString(), insertSenha.getText().toString(), insertNome.getText().toString(), insertSobrenome.getText().toString(), insertCpf.getText().toString(), insertMatricula.getText().toString());
                     finish();
                 }else if (senhaValida == false){
                     Toast.makeText(CadastroActivity.this, "Senhas não conferem", Toast.LENGTH_SHORT).show();
