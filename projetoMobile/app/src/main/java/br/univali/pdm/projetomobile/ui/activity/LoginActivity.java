@@ -23,6 +23,14 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(new Intent(LoginActivity.this, CadastroActivity.class));
             }
         });
+
+        Button botaoEsqueciSenha = findViewById(R.id.login_esqueci_senha);
+        botaoEsqueciSenha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, EsqueciSenhaActivity.class));
+            }
+        });
     }
 
     @Override

@@ -6,4 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.EsqueciSenhaActivity">
 
+    <TextView
+        android:id="@+id/esqueci_senha_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperação de senha"
+        android:textSize="36dp"
+        android:elegantTextHeight="true"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/esqueci_senha_instrucoes"
+        android:layout_width="362dp"
+        android:layout_height="94dp"
+        android:layout_margin="16dp"
+        android:elegantTextHeight="true"
+        android:text="Informe o seu e-mail cadastrado para realizar a recuperação da senha"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esqueci_senha_titulo" />
+
+    <EditText
+        android:id="@+id/esqueci_senha_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:hint="E-mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esqueci_senha_instrucoes" />
+
+    <Button
+        android:id="@+id/esqueci_senha_botao_recuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="Recuperar Senha"
+        android:backgroundTint="#030AB2"
+        app:cornerRadius="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/esqueci_senha_email" />
 </androidx.constraintlayout.widget.ConstraintLayout>
