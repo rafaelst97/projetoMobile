@@ -21,7 +21,7 @@
     <EditText
         android:id="@+id/login_senha"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="44dp"
         android:ems="10"
         android:hint="Senha"
@@ -40,14 +40,14 @@
         android:text="Login"
         app:cornerRadius="90dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintHorizontal_bias="0.755"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_senha" />
 
     <EditText
         android:id="@+id/login_email"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="E-mail"
