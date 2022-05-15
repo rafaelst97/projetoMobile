@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import br.univali.pdm.projetomobile.R;
+import br.univali.pdm.projetomobile.ui.activity.br.univali.pdm.projetomobile.ui.model.Usuario;
 
 public class CadastroActivity extends AppCompatActivity {
 
@@ -59,6 +60,8 @@ public class CadastroActivity extends AppCompatActivity {
 
                 if (camposVazios.size() > 0) {
                     Toast.makeText(CadastroActivity.this, camposVazios.toString(), Toast.LENGTH_SHORT).show();
+                }else{
+
                 }
 
                 if (validacaoCampos == true){
