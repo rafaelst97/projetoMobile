@@ -5,8 +5,13 @@
       <map>
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_cadastro.xml" value="0.2" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_esqueci_senha.xml" value="0.2105978260869565" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_main.xml" value="0.25679347826086957" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/content_home.xml" value="0.25679347826086957" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_first.xml" value="0.18802083333333333" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.18512820512820513" />
       </map>
     </option>
   </component>

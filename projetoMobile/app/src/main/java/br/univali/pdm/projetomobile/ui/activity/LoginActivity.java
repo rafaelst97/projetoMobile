@@ -57,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
                 EditText inputEmail = findViewById(R.id.login_email);
                 
                 if (user.getEmail().length() > 0 && inputEmail.getText().toString().equals(user.getEmail()) && inputSenha.getText().toString().equals(user.getSenha())){
-                    Toast.makeText(LoginActivity.this, "Acesso Permitido!", Toast.LENGTH_SHORT).show();    
+                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                 }else if (user.getEmail().length() == 0) {
                     Toast.makeText(LoginActivity.this, "Sem cadastro!", Toast.LENGTH_SHORT).show();
                 }else {
