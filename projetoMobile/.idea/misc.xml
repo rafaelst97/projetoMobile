@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_cadastro.xml" value="0.25679347826086957" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_cadastro.xml" value="0.2" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_main.xml" value="0.25679347826086957" />
       </map>
     </option>
