@@ -1,4 +1,4 @@
-package rafael.treinamento;
+package rafael.treinamento.ui.activity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+import rafael.treinamento.R;
+
+public class ListaAlunosActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
