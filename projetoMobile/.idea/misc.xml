@@ -11,8 +11,10 @@
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_main.xml" value="0.25679347826086957" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/content_home.xml" value="0.25679347826086957" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_feed.xml" value="0.33" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_first.xml" value="0.18802083333333333" />
-        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_previsao.xml" value="0.25679347826086957" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_noticias.xml" value="0.1" />
+        <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_previsao.xml" value="0.1" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/layout/fragment_second.xml" value="0.1" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.18512820512820513" />
         <entry key="..\:/Projetos/projetoMobile/app/src/main/res/menu/menu_configuracoes.xml" value="0.1" />
